@@ -1,17 +1,21 @@
-## 快速打卡
+[![](https://badgen.net/badge/icon/JSBox?icon=chrome&label&color=cyan)](https://docs.xteko.com/) [![](https://badgen.net/badge/icon/bmqy?icon=chrome&label)](https://www.bmqy.net)
+
+# 快速打卡
 ### quick-clock-in
+
+## 介绍
 JSBox脚本应用：快速发送预置好的打卡信息到输入框
 
-可配置项：
-1. 部门
-1. 姓名
+## 配置项：
+- 部门
+- 姓名
 
-1. 上午上班时段
-1. 下午上班时段
-1. 序号格式
-1. 显示年份
-1. 显示秒数
-1. 日期补零
-1. 时间补零(默认开启)
+- 上午上班时段
+- 下午上班时段
+- 序号格式
+- 显示年份
+- 显示秒数
+- 日期补零
+- 时间补零(默认开启)
 
 <font color=red>注：请务必开启JSBox键盘的“允许完全访问”权限，否则使用过程中会有问题</font>
