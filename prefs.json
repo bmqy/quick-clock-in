@@ -1,0 +1,92 @@
+{
+  "title": "脚本设置",
+  "groups": [
+    {
+      "title": "基本信息",
+      "items": [
+        {
+          "title": "部门",
+          "type": "string",
+          "key": "user.department",
+          "value": "行政部"
+        },
+        {
+          "title": "姓名",
+          "type": "string",
+          "key": "user.name",
+          "value": "测试"
+        }
+      ]
+    },
+    {
+      "title": "配置信息",
+      "items": [
+        {
+          "title": "上午上班",
+          "type": "list",
+          "key": "config.am",
+          "items": ["08:00-12:00","08:30-12:00","09:30-12:00","10:00-12:00"],
+          "value": 0
+        },
+        {
+          "title": "下午上班",
+          "type": "list",
+          "key": "config.pm",
+          "items": ["13:00-17:30","13:30-17:30","14:00-17:30","14:00-18:00"],
+          "value": 0
+        },
+        {
+          "title": "序号格式",
+          "type": "list",
+          "key": "config.listStyle",
+          "items": ["1、2、3、", "1. 2. 3."],
+          "value": 0
+        },
+        {
+          "title": "显示年份",
+          "type": "boolean",
+          "key": "config.showYear",
+          "value": false
+        },
+        {
+          "title": "显示秒数",
+          "type": "boolean",
+          "key": "config.showSeconds",
+          "value": false
+        },
+        {
+          "title": "日期补零",
+          "type": "boolean",
+          "key": "config.fillDateZero",
+          "value": false
+        },
+        {
+          "title": "时间补零",
+          "type": "boolean",
+          "key": "config.fillTimeZero",
+          "value": true
+        }
+      ]
+    },
+    {
+      "title": "关于脚本",
+      "items": [
+        {
+          "title": "作者",
+          "type": "info",
+          "value": "bmqy"
+        },
+        {
+          "title": "简介",
+          "type": "info",
+          "value": "可快速输入上下班打卡文本"
+        },
+        {
+          "title": "版本",
+          "type": "info",
+          "value": "1.0.0"
+        }
+      ]
+    }
+  ]
+}
