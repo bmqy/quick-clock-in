@@ -1,7 +1,7 @@
 /*
  * @Author: bmqy
  * @Date: 2020-02-28 13:37:23
- * @LastEditTime: 2020-03-02 17:47:37
+ * @LastEditTime: 2020-03-03 13:09:10
  * @Description: 快速输入打卡文本
  */
 // 返回打卡文本信息
@@ -29,7 +29,7 @@ function getDateTime(prefs) {
   if (prefs.ShowYear) {
     tmp += year + '年';
   }
-  tmp += month + '月' + day + ' ' + hour + ':' + minutes;
+  tmp += month + '月' + day + '日 ' + hour + ':' + minutes;
   if (prefs.ShowSeconds) {
     tmp += ':' + seconds;
   }
