@@ -82,6 +82,11 @@
           "value": "可快速输入上下班打卡文本"
         },
         {
+          "title": "Github",
+          "type": "link",
+          "value": "https://github.com/bmqy/quick-clock-in"
+        },
+        {
           "title": "版本",
           "type": "info",
           "value": "1.0.1"
